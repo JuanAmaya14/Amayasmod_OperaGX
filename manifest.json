@@ -16,7 +16,7 @@
         {
             "background_music":
             [
-                "music/A Heart Of Darkness.mp3"
+                "music/MEGERA.mp3"
             ],
             "page_styles":
             [
@@ -84,5 +84,5 @@
         "schema_version": 1
     },
     "name": "Jojos",
-    "version": "1.0"
+    "version": "1.1"
 }
