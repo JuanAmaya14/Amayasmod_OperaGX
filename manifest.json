@@ -1,35 +1,41 @@
 {
-    "description": "Yes",
-    "developer":
-    {
-        "name": "Amaya"
-    },
+    "manifest_version": 3,
+    "name": "Amaya's mod",
+    "description": "Yes.",
+    "version": "1.2",
     "icons":
     {
         "512": "icon_512.png"
     },
-    "manifest_version": 3,
+    "developer":
+    {
+        "name": "Amaya"
+    },
     "mod":
     {
-        "license": "license.txt",
+        "schema_version": 1,
         "payload":
         {
+            "wallpaper":
+            {
+                "dark":
+                {
+                    "image": "wallpaper/CMoon.webm",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#ffffff",
+                    "first_frame": "wallpaper/frame.jpg"
+                },
+                "light":
+                {
+                    "image": "wallpaper/CMoon.webm",
+                    "text_color": "#ffffff",
+                    "text_shadow": "#00ff00",
+                    "first_frame": "wallpaper/frame.jpg"
+                }
+            },
             "background_music":
             [
                 "music/MEGERA.mp3"
-            ],
-            "page_styles":
-            [
-                {
-                    "css":
-                    [
-                        "webmodding/opera.css"
-                    ],
-                    "matches":
-                    [
-                        "https://*.opera.com/*"
-                    ]
-                }
             ],
             "theme":
             {
@@ -64,25 +70,19 @@
                     }
                 }
             },
-            "wallpaper":
-            {
-                "dark":
-                {   
-                    "image": "wallpaper/CMoon.webm",
-                    "text_color": "#FFFFFF",
-                    "text_shadow": "#757575"
-                },
-                "light":
+            "page_styles":
+            [
                 {
-                    "image": "wallpaper/CMoon.webm",
-                    "first_frame": "wallpaper/frame.jpg",
-                    "text_color": "#FFFFFF",
-                    "text_shadow": "#0B000E"
+                    "matches":
+                    [
+                        "https://*.opera.com/*"
+                    ],
+                    "css":
+                    [
+                        "webmodding/opera.css"
+                    ]
                 }
-            }
-        },
-        "schema_version": 1
-    },
-    "name": "Jojos",
-    "version": "1.1"
+            ]
+        }
+    }
 }

@@ -1,5 +1,5 @@
-# ModJojos_OperaGX
-Version 1.1
+# Amayasmod_OperaGX
+Version 1.2
 
 Wallpaper: https://www.youtube.com/watch?v=ZoTgMQI1yUs
 
